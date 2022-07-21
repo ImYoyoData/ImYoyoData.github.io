@@ -1,5 +1,5 @@
 module.exports = {
-    title: '遂宁之窗，让生活充满阳光！',
+    title: '开心每一天，让生活充满阳光！',
     description: '文档是开发坚强的后盾！',
     base: '/vuepress-starter/',
     markdown: {
@@ -15,8 +15,9 @@ module.exports = {
         logo: '/assets/img/logo.png',
         nav: [
             { text: 'Home', link: '/' },
-            { text: 'Guide', link: '/guide/' },
-            { text: 'External', link: 'https://google.com' },
+            { text: 'Yoyo的github', link: 'https://github.com/ImYoyoData' },
+            { text: 'LL官方文档', link: 'https://docs.litebds.com/' },
+            { text: '百度', link: 'https://www.baidu.com' },
         ]
     }
 }
