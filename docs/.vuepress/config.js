@@ -1,5 +1,5 @@
 module.exports = {
-    title: '开心每一天，让生活充满阳光！',
+    title: 'Yoyo of Docs',
     description: '文档是开发坚强的后盾！',
     base: '/',
     markdown: {

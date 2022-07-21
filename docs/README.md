@@ -1,7 +1,7 @@
 ---
 home: true
 # heroImage: /hero.png
-heroText: BDS-LLSE
+heroText: Yoyo
 tagline: 让开发更加顺畅，让细节更加明显！
 actionText: 查询文档 →
 actionLink: /Home/
