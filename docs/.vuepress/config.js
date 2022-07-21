@@ -1,7 +1,7 @@
 module.exports = {
     title: '开心每一天，让生活充满阳光！',
     description: '文档是开发坚强的后盾！',
-    base: '/vuepress-starter/',
+    base: '/Yoyo/',
     markdown: {
         lineNumbers: true
     },
