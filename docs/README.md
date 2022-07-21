@@ -1,10 +1,10 @@
 ---
 home: true
 # heroImage: /hero.png
-heroText: 遂宁之窗开发文档1
+heroText: BDS-LLSE
 tagline: 让开发更加顺畅，让细节更加明显！
 actionText: 查询文档 →
-actionLink: /遂宁之窗/
+actionLink: /Home/
 features:
 - title: 简洁至上
   details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
