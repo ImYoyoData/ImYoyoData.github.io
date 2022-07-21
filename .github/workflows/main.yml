@@ -26,6 +26,8 @@ jobs:
       # 部署到 GitHub Pages
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          FOLDER: docs/.vuepress/dist
         env:
          # 部署到你的目标仓库，这里就是你的仓库名
           REPO: git@github.com:ImYoyoData/ImYoyoData.github.io.git
