@@ -1,7 +1,7 @@
 ---
 home: true
 # heroImage: /hero.png
-heroText: 遂宁之窗开发文档1
+heroText: 遂宁之窗开发文档
 tagline: 让开发更加顺畅，让细节更加明显！
 actionText: 查询文档 →
 actionLink: /遂宁之窗/
