@@ -25,12 +25,14 @@ jobs:
 
       # 部署到 GitHub Pages
       - name: Deploy
-        # 使用别人写好的一个 action
         uses: JamesIves/github-pages-deploy-action@releases/v3
-        with:
+        env:
+         # 部署到你的目标仓库，这里就是你的仓库名
           REPO: git@github.com:ImYoyoData/ImYoyoData.github.io.git
-          SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_PRIVATE_KEY }}
-          # 打包后的文件部署到哪个分支上
+          # 部署到 main 分支
           BRANCH: main
-          # 打包后的文件在哪里
+          # 部署目录为 VuePress 的默认输出目录
           FOLDER: docs/.vuepress/dist
+          # 当前仓库的密钥
+          SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_PRIVATE_KEY }}
+
