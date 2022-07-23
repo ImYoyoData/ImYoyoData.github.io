@@ -10,7 +10,8 @@
     "@vuepress/plugin-back-to-top": "^1.9.7",
     "vuepress": "^1.9.7",
     "vuepress-plugin-auto-sidebar": "^2.3.2",
-    "vuepress-plugin-autobar": "boboidream/vuepress-bar"
+    "vuepress-plugin-autobar": "github:boboidream/vuepress-bar",
+    "vuepress-plugin-rpurl": "github:boboidream/vuepress-plugin-rpurl"
   },
   "scripts": {
     "docs:dev": "vuepress dev docs",
