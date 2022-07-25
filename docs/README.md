@@ -10,6 +10,5 @@ features:
   details: 以后有的东西尽量看这里哈--噫噫噫。
 footer: MIT Licensed | Copyright © 2021-2022Yoyo
 ---
-⛳
 
 <audio autoplay loop src="/assets/audio/Moskau.mp3" />
