@@ -1,5 +1,5 @@
 module.exports = {
-    title: 'Yoyo of Docs',
+    title: 'Yoyo of docs',
     description: '文档是开发坚强的后盾！',
     base: '/',
     markdown: {

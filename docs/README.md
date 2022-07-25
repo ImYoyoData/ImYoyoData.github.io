@@ -1,6 +1,6 @@
 ---
 home: true
-# heroImage: /hero.png
+heroImage: /assets/img/logo.png
 heroText: Yoyo
 tagline: 让开发更加顺畅，让细节更加明显！
 actionText: 查询文档 →
