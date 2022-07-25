@@ -8,15 +8,8 @@ actionLink: /Home/
 features:
 - title: 反正就是文档
   details: 以后有的东西尽量看这里哈--噫噫噫。
-footer: MIT Licensed | Copyright © 2018-present Evan You
+footer: MIT Licensed | Copyright © 2021-2022Yoyo
 ---
-::: tip 提示
-这是一个提示12
-:::
+⛳
 
-
-::: details 点击查看
-```js{1}
-let a = '我还是代码哈哈';
-```
-:::
+<audio autoplay loop src="/assets/audio/Moskau.mp3" />
