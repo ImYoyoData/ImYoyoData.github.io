@@ -11,4 +11,3 @@ features:
 footer: MIT Licensed | Copyright © 2021-2022Yoyo
 ---
 
-<audio autoplay loop src="/assets/audio/Moskau.mp3" />
