@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[9],{276:function(t,s,o){"use strict";o.r(s);var a=o(10),n=Object(a.a)({},(function(){var t=this._self._c;return t("ContentSlotsDistributor",{attrs:{"slot-key":this.$parent.slotKey}},[t("audio",{attrs:{autoplay:"",loop:"",src:"/assets/audio/Moskau.mp3"}})])}),[],!1,null,null,null);s.default=n.exports}}]);
