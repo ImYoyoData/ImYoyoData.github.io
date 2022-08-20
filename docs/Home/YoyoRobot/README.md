@@ -13,7 +13,11 @@
 >
 > 欢迎大家开发更多扩展哦(机器人携带一个官方正则扩展) [下载正则扩展](https://wwp.lanzoub.com/iCwmG09wioji)
 
-`扩展路径 './YoyoRobot'`
+```
+扩展路径 './YoyoRobot'
+```
+
+
 
 ## 其它优秀扩展
 
@@ -21,7 +25,11 @@
 
 ## 配置文件 
 
-`路径 './plugins/Yoyo/YoyoRobot/config.json'`
+```
+路径 './plugins/Yoyo/YoyoRobot/config.json'
+```
+
+
 
 ``` js
 

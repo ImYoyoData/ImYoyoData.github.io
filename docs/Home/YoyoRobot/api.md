@@ -12,6 +12,14 @@
 + [群文件系统](#群文件系统)
 + [segment和cqcode](#segment和cqcode) 支持的消息元素类型
 
+## 客户端调用
+
+```js
+yoyo.client.方法
+```
+
+
+
 ----
 
 ## 系统类API
@@ -272,7 +280,8 @@ yoyo.segment   yoyo.cqcode
 |Name|API(segment)|API(cqcode)|Description|
 |-|-|-|-|
 |文本|segment.text()|cqcode.text()||
-|AT|segment.at()|cqcode.at()||
+|at|segment.at(qq)|cqcode.at()|艾特成员|
+|atall|segment.atall()|Null|艾特全体|
 |经典表情|segment.face()|cqcode.face()|id为0~324|
 |图片|segment.image()|cqcode.image()||
 |闪照|segment.flash()|cqcode.flash()||
