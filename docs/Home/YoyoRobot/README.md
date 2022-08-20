@@ -11,9 +11,13 @@
 
 > 扩展是在机器人登录完成后才加载的
 >
-> 欢迎大家开发更多扩展哦
+> 欢迎大家开发更多扩展哦(机器人携带一个官方正则扩展) [下载正则扩展](https://wwp.lanzoub.com/iCwmG09wioji)
 
-`路径 './YoyoRobot'`
+`扩展路径 './YoyoRobot'`
+
+## 其它优秀扩展
+
+- [CustomGetMap](https://www.minebbs.net/resources/customgetmap-yoyorobot.4341/) - 用于CustomGetMap 的 YoyoRobot机器人正则扩展(群里上传图片到游戏地图画)
 
 ## 配置文件 
 
