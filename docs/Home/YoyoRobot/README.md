@@ -2,6 +2,8 @@
 
 >支持面板的机器人
 >
+>YoyoRobot机器人 [**下载**](https://www.minebbs.net/resources/yoyorobot.4559/)
+>
 >如果不了解的话可以加qq群[点击添加QQ群](https://jq.qq.com/?_wv=1027&k=OrdpaLLX)
 
 1. [事件文档](./event)
