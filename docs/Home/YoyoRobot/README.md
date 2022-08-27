@@ -19,7 +19,12 @@
 扩展路径 './YoyoRobot'
 ```
 
-
+### 扩展require第三方库方法
+```js
+//扩展调用第三方库使用
+const json5 = yoyo.require('json5');
+//这样的方法即可 引用nodejs内置库 直接 require 就可以 当然 你用 yoyo.require 也信
+```
 
 ## 其它优秀扩展
 
