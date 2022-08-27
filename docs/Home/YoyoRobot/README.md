@@ -13,10 +13,11 @@
 
 > 扩展是在机器人登录完成后才加载的
 >
-> 欢迎大家开发更多扩展哦(机器人携带一个官方正则扩展) [下载正则扩展](https://wwp.lanzoub.com/iW5we09xwulg)
+> 欢迎大家开发更多扩展哦(机器人携带一个官方正则扩展) [下载正则扩展](https://wwp.lanzoub.com/iaxZ40adfpgf)
 
-```
-扩展路径 './YoyoRobot'
+```js
+//扩展路径 './YoyoRobot'
+yoyo.__dirname  //返回当前扩展绝对路径
 ```
 
 ### 扩展require第三方库方法
