@@ -169,6 +169,7 @@ export interface MemberInfo extends MemberBaseInfo {
 |发送群聊|sendGroupMsg(gid, msg)|返回message_id|
 |发送讨论组|sendDiscussMsg(did, msg)||
 |发送群临时会话|sendTempMsg(gid, uid, msg)|返回message_id|
+|(注意)上方4种信息发送 前面加_|_sendPrivateMsg()|就可以自动 添加空的catch屏蔽错误|
 |撤回消息|deleteMsg(message_id)||
 |上报消息已读|reportReaded(message_id)||
 |获取1条历史消息|getMsg(message_id)||
