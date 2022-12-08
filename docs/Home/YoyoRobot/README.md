@@ -86,7 +86,7 @@ mc.listen("onServerStarted", () => {
 
 > 扩展是在机器人登录完成后才加载的
 >
-> 欢迎大家开发更多扩展哦(机器人携带一个官方正则扩展) [下载正则扩展](https://wwp.lanzoub.com/iaxZ40adfpgf)
+> 欢迎大家开发更多扩展哦(机器人携带一个官方正则扩展) [下载正则扩展](https://wwrw.lanzoub.com/i6fD60i5az8h)
 
 ```js
 //扩展路径 './YoyoRobot'
