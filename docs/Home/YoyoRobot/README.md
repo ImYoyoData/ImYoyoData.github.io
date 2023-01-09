@@ -63,7 +63,46 @@ data:[
 }
 ```
 
-## LLSE API 调用(无返回值,因为异步的原因返回不了....)
+
+
+
+
+# 新版本 llse api 调用 支持事件和 api使用 (>=0.1.18)
+
+```javascript
+//新版本调用举例
+
+
+const yoyorobot = require('../yoyorobot/llseapi_0.0.1.js');//这个是nodejs 插件去调用的路径
+//const yoyorobot = require('./nodejs/yoyorobot/llseapi_0.0.1.js');//这个是 js 插件去调用的路径
+
+//这是一个初始化函数 在这个里面才能使用 yoyo 变量 你可以在顶部定义一个变量 来赋值 也可以的
+yoyorobot((yoyo) => {
+   
+    //等机器人上线后才可以 进行发送聊天等操作哦
+    yoyo.listen('online', (event) => {
+        // 监听到机器人上线了
+        log('监听到机器人上线了1');
+        yoyo.client.sendGroupMsg(569211842, [yoyo.segment.text('我是通过segment转义发送的文本')]).then(res => {
+            log('回调触发:', res);
+        });
+    });
+
+
+    yoyo.listen('messageGroup', (event) => {
+        // 监听到机器人群消息
+        log('群消息:', event);
+
+    });
+
+}, 'test2');//这个 test2  就是你当前的 插件名（可以自定义的）
+```
+
+
+
+
+
+## (旧版本不推荐使用)LLSE API 调用(无返回值,因为异步的原因返回不了....)
 
 发送信息举例:
 

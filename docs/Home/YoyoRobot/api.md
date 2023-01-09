@@ -161,6 +161,24 @@ export interface MemberInfo extends MemberBaseInfo {
 
 ----
 
+
+
+### 绑定玩家名称 和 QQ
+
+yoyo.bind.<API>
+
+|Name|API|Description|
+|-|-|-|
+|给指定名称绑定QQ|nameBind(name,qq,[force?])|true\|false|
+|获取绑定信息|getBind(name) or getBind({name,qq})|null \| Object|
+|删除绑定信息|delBind(name) or delBind({name,qq})|null \| true \| false|
+|写入完整的bind配置|writeBind(text)|true \| false|
+|读取完整的bind配置|readBind()|null \| Object|
+
+
+
+
+
 ### 发消息相关
 
 |Name|API|Description|
