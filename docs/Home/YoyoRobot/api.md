@@ -163,7 +163,7 @@ export interface MemberInfo extends MemberBaseInfo {
 
 
 
-### 绑定玩家名称 和 QQ
+### 绑定玩家名称 和 QQ (>=0.1.19)
 
 yoyo.bind.<API>
 
