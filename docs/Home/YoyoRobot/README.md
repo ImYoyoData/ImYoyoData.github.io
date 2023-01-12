@@ -4,7 +4,7 @@
 >
 >YoyoRobot机器人 [**下载**](https://www.minebbs.net/resources/yoyorobot.4559/)
 >
->如果不了解的话可以加qq群[点击添加QQ群](https://jq.qq.com/?_wv=1027&k=OrdpaLLX)
+>如果不了解的话可以加qq群[点击添加QQ群](https://jq.qq.com/?_wv=1027&k=OrdpaLLX)<a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=GELx1rLzuxYlNOkxDL6eFPBlKRc7gqu3&jump_from=webapi&authKey=+MSPf+1VOAK4WWUmK0l52KB9FkSDbd7GI/07Ruv6hr3XTmsEzWsuNln+T0acdBmE"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="(Yoyo)MCBE交流群&lt;$ǿĀD&gt;&lt;%" title="(Yoyo)MCBE交流群&lt;$ǿĀD&gt;&lt;%"></a>
 
 1. [事件文档](./event)
 2. [api文档](./api)
@@ -73,8 +73,8 @@ data:[
 //新版本调用举例
 
 
-const yoyorobot = require('../yoyorobot/llseapi_0.0.1.js');//这个是nodejs 插件去调用的路径
-//const yoyorobot = require('./nodejs/yoyorobot/llseapi_0.0.1.js');//这个是 js 插件去调用的路径
+const yoyorobot = require('../yoyorobot/llseapi.js');//这个是nodejs 插件去调用的路径
+//const yoyorobot = require('./nodejs/yoyorobot/llseapi.js');//这个是 js 插件去调用的路径
 
 //这是一个初始化函数 在这个里面才能使用 yoyo 变量 你可以在顶部定义一个变量 来赋值 也可以的
 yoyorobot((yoyo) => {

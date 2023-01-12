@@ -12,6 +12,28 @@
 + [群文件系统](#群文件系统)
 + [segment和cqcode](#segment和cqcode) 支持的消息元素类型
 
+
+
+## 绑定玩家名称 和 QQ (>=0.1.19)
+```js
+yoyo.bind.方法
+//举例
+yoyo.bind.nameBind('Yoyo6664050','1294858802');//绑定指定成员 如果name和qq有绑定过 将失败  
+yoyo.bind.nameBind('Yoyo6664050','1294858802',true);//绑定指定成员 如果name和qq有绑定过 将强制覆盖  
+```
+
+| Name               | API                                 | Description           |
+| ------------------ | ----------------------------------- | --------------------- |
+| 给指定名称绑定QQ   | nameBind(name,qq,force?)          | true\|false           |
+| 获取绑定信息       | getBind(name) or getBind({name,qq}) | null \| Object        |
+| 删除绑定信息       | delBind(name) or delBind({name,qq}) | null \| true \| false |
+| 写入完整的bind配置 | writeBind(text)                     | true \| false         |
+| 读取完整的bind配置 | readBind()                          | null \| Object        |
+
+
+
+
+
 ## 客户端调用
 
 ```js
@@ -158,22 +180,6 @@ export interface MemberInfo extends MemberBaseInfo {
 ```
 
 
-
-----
-
-
-
-### 绑定玩家名称 和 QQ (>=0.1.19)
-
-yoyo.bind.<API>
-
-|Name|API|Description|
-|-|-|-|
-|给指定名称绑定QQ|nameBind(name,qq,[force?])|true\|false|
-|获取绑定信息|getBind(name) or getBind({name,qq})|null \| Object|
-|删除绑定信息|delBind(name) or delBind({name,qq})|null \| true \| false|
-|写入完整的bind配置|writeBind(text)|true \| false|
-|读取完整的bind配置|readBind()|null \| Object|
 
 
 
