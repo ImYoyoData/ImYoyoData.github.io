@@ -11,7 +11,7 @@
 
 
 ## 搭建教程
-<iframe src="//player.bilibili.com/player.html?aid=947720928&bvid=BV1WW4y137wA&cid=962195041&page=1" width="1024" height="640" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<iframe src="//player.bilibili.com/player.html?aid=947720928&bvid=BV1WW4y137wA&cid=962195041&page=1" width="100%" style="min-height: 340px;" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
 ## 第三方调用
 
