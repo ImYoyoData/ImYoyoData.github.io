@@ -1,0 +1,20 @@
+{
+  "name": "bdsllse",
+  "version": "1.0.0",
+  "description": "bds-llse文档",
+  "main": "index.js",
+  "author": "Yoyo",
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/plugin-active-header-links": "^1.9.7",
+    "@vuepress/plugin-back-to-top": "^1.9.7",
+    "vuepress": "^1.9.7",
+    "vuepress-plugin-auto-sidebar": "^2.3.2",
+    "vuepress-plugin-autobar": "github:boboidream/vuepress-bar",
+    "vuepress-plugin-rpurl": "github:boboidream/vuepress-plugin-rpurl"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
